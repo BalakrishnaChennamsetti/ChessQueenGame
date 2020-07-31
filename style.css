@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#id1 {
+    text-align: center;
+    font-size: 1cm;
+    color:orangered;
+    padding: 2%;
+
+}
+#id2 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+body {
+    background-image: url("./assets/board-game1.jpg");
+
+}
+#position {
+    margin: 20px;
+    border-radius: 1.2em;
+    padding: 2%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    outline: 0cm;
+}
+#btn {
+    height: 10vh;
+    width: 10vw;
+    font-size: 1cm;
+    background-color: #FFDAB9;
+    border-radius: 1EM;
+    outline: 0cm;
+}
+#id3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#msg {
+    color: blue;
+    font-size: 1cm;
+    padding: 0cm;
+    text-align: center;
+}
+
+#pos {
+    margin: 10%;
+    height: 2cm;
+    padding: 0.5cm;
+    text-align: center;
+    background-color: papayawhip;   
+    color: black;
+    border-radius: 1cm;
+}
